@@ -1,6 +1,7 @@
 # Linux Security Labs
 
-This repository contains hands-on cybersecurity labs performed in a Linux
+This repository contains hands-on cybersecurity lab work focused on ethical network reconnaissance, service enumeration, and host fingerprinting using Nmap.
+performed in a Linux
 (Ubuntu) virtual environment using VMware Fusion.
 
 ## Lab Environment
