@@ -26,7 +26,7 @@ OS detection performed. Please report any incorrect results at https://nmap.org/
 
 Aggressive Scan (-A)
 
-File: aggressive_detection.txt
+File: a_detection.txt
 
 
 Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-12 16:17 EST
