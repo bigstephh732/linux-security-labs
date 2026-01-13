@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Sun Jan 11 14:31:31 2026 as: nmap --script=banner -oN nse_banner_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE
+631/tcp open  ipp
+
+# Nmap done at Sun Jan 11 14:31:51 2026 -- 1 IP address (1 host up) scanned in 20.12 seconds
