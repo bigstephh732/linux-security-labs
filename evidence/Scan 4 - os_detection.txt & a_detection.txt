@@ -1,0 +1,51 @@
+Scan 4 – OS Detection
+
+File: os_detection.txt
+
+
+# Nmap 7.95 scan initiated Fri Jan 9 10:39:24 2026 as:
+nmap -O -oN os_detection.txt 127.0.0.1
+
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00014s latency).
+Not shown: 999 closed tcp ports (reset)
+
+PORT    STATE SERVICE
+631/tcp open  ipp
+
+Device type: general purpose
+Running: Linux 5.X|6.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/
+
+# Nmap done at Fri Jan 9 10:39:25 2026 -- 1 IP address (1 host up) scanned in 1.40 seconds
+
+
+Aggressive Scan (-A)
+
+File: a_detection.txt
+
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-12 16:17 EST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000088s latency).
+Not shown: 999 closed tcp ports (reset)
+
+PORT    STATE SERVICE VERSION
+631/tcp open  ipp     CUPS 2.4
+| http-title: Home - CUPS 2.4.12
+| http-server-header: CUPS/2.4 IPP/2.1
+| http-robots.txt: 1 disallowed entry
+|_/
+
+Device type: general purpose
+Running: Linux 5.X|6.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS and Service detection performed.
+Nmap done: 1 IP address (1 host up) scanned in 7.69 seconds
