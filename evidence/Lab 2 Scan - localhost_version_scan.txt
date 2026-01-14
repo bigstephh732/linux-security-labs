@@ -1,4 +1,4 @@
-Scan 2 – Service Version Detection
+Lab 2 Scan – Service Version Detection
 
 File: localhost_version_scan.txt
 
