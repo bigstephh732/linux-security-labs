@@ -1,4 +1,4 @@
-Scan 4 – OS Detection
+Lab 4 Scan – OS Detection
 
 File: os_detection.txt
 
