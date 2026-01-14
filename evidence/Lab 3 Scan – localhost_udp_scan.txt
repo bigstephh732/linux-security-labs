@@ -1,4 +1,4 @@
-Scan 3 – UDP Scan
+Lab 3 Scan – UDP Scan
 
 File: localhost_udp_scan.txt
 
