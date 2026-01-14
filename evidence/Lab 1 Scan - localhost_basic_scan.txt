@@ -1,4 +1,4 @@
-## Scan 1 – Basic TCP Scan
+## Lab Scan 1 – Basic TCP Scan
 
 # File: 
 localhost_basic_scan.txt
