@@ -1,4 +1,4 @@
-Scan 5 – NSE Default Scan
+Lab 5 Scan – NSE Default Scan
 
 File: nse_default_scan.txt
 
